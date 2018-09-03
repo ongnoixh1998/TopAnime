@@ -11,6 +11,10 @@
     <modules>
         <module>web-core-data-dao</module>
         <module>web-core-data-presistence</module>
+        <module>web</module>
+        <module>web-core-data-dto</module>
+        <module>web-core-service</module>
+        <module>web-core-common</module>
     </modules>
 
 
