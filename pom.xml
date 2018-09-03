@@ -16,6 +16,44 @@
         <module>web-core-service</module>
         <module>web-core-common</module>
     </modules>
+    <properties>
+        <mysql.connector.version>8.0.12</mysql.connector.version>
+        <servlet.api.version>4.0.1</servlet.api.version>
+        <servlet.jsp.api.version>2.3.3</servlet.jsp.api.version>
+        <jstl.version>1.2</jstl.version>
+        <sitemesh.version>2.4.2</sitemesh.version>
+    </properties>
+    <dependencies>
+        <!--MYSQL-->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql.connector.version}</version>
+        </dependency>
+        <!--servlet api-->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>${servlet.api.version}</version>
+        </dependency>
+        <!--servlet jas api-->
+        <dependency>
+            <groupId>javax.servlet.jsp</groupId>
+            <artifactId>javax.servlet.jsp-api</artifactId>
+            <version>${servlet.jsp.api.version}</version>
+        </dependency>
+        <!--JSTL-->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+            <version>${jstl.version}</version>
+        </dependency>
+        <!--sitemesh-->
+        <dependency>
+            <groupId>opensymphony</groupId>
+            <artifactId>sitemesh</artifactId>
+            <version>${sitemesh.version}</version>
+        </dependency>
 
-
+    </dependencies>
 </project>
