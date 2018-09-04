@@ -15,6 +15,7 @@
         <module>web-core-data-dto</module>
         <module>web-core-service</module>
         <module>web-core-common</module>
+        <module>web-test-api</module>
     </modules>
     <properties>
         <mysql.connector.version>8.0.12</mysql.connector.version>
@@ -54,6 +55,17 @@
             <artifactId>sitemesh</artifactId>
             <version>${sitemesh.version}</version>
         </dependency>
-
+        <!--testng-->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.14.3</version>
+        </dependency>
+        <!--hibernate-->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>5.3.5.Final</version>
+        </dependency>
     </dependencies>
 </project>
