@@ -16,6 +16,7 @@
         <module>web-core-service</module>
         <module>web-core-common</module>
         <module>web-test-api</module>
+        <module>web-core-data</module>
     </modules>
     <properties>
         <mysql.connector.version>8.0.12</mysql.connector.version>
